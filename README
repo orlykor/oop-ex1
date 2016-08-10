@@ -1,0 +1,49 @@
+orlykor12
+203595541
+orly koren
+helped- almog bar shalom, dan kufra.
+
+=============================
+=      File description     =
+=============================
+Board.java -  The Board class implements the board of the game 
+Competition.java - The Competition class implements the main game with the 
+amount of the selected rounds. 
+Move.java - The Move class implements the moves the players do.
+Player.java - The Player class implements the different players in the game
+and their different moves.
+
+
+
+
+=============================
+=          Design           =
+=============================
+
+basically i designed the program according to the given API of each class, 
+when needed, i added a few methods of my own to help me reach what i wanted. 
+
+
+
+=============================
+=  Implementation details   =
+=============================
+
+according to the API. in addition the implement of each class is to maintain 
+a connection between each class. at the end, each class depended on the other.
+
+
+
+=============================
+=    Answers to questions   =
+=============================
+
+my implementation on the smart player- 
+the main goal of the smart player as i implemented it was to take one stick 
+when the board has an even amount of sticks, and to take two sticks when the
+board has odd amount of sticks. that way the board always has odd amount of 
+sticks, that way in the end the smart player get to take the last one. 
+
+Just wanted to say, that because you said not to touch the board class i didn't
+fix the magic numbers out there. don't know if you also meant that, so i 
+preferred not to touch it. 
